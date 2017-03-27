@@ -1,5 +1,5 @@
 PODS:
-  - SmartEducation (1.0.0)
+  - SmartEducation (1.0.5)
 
 DEPENDENCIES:
   - SmartEducation (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SmartEducation: feef19fab40b11e81d5fcc3b80d46a761b42ca7c
+  SmartEducation: b16f38fb18df45a7b0e310235d5a274226ffcbbc
 
 PODFILE CHECKSUM: 107ad0fb24d0228422ee255d4e3c72d51a989dc4
 

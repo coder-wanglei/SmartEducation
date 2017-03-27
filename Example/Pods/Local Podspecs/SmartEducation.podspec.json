@@ -1,6 +1,6 @@
 {
   "name": "SmartEducation",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "summary": "this is a test",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wanglei19940101/SmartEducation",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wanglei19940101/SmartEducation.git",
-    "tag": "1.0.0"
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "8.0"
