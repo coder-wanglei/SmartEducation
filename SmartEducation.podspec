@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartEducation' #名称
-  s.version          = '0.1.0'  #版本号
-  s.summary          = 'A short description of SmartEducation.' #简短介绍，下面是详细介绍
+  s.version          = '1.0.0'  #版本号
+  s.summary          = 'this is a test' #简短介绍，下面是详细介绍
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
   #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，
   #如果需要在项目中分组显示，这里也要做相应的设置
-  s.source_files = 'SmartEducation/Classes/**/*'
+  s.source_files = 'SmartEducation/SmartEducation/Classes/**/*'
   #资源文件地址
   # s.resource_bundles = {
   #   'SmartEducation' => ['SmartEducation/Assets/*.png']
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
   #公开头文件地址
   # s.public_header_files = 'Pod/Classes/**/*.h'
   #所需的framework，多个用逗号隔开
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.frameworks = 'UIKit', 'MapKit','AVFoundation'
   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
   # s.dependency 'AFNetworking', '~> 2.3'
 end

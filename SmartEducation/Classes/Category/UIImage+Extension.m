@@ -194,7 +194,7 @@
     // 创建一个bitmap的context
     // 并把它设置成为当前正在使用的context
     UIGraphicsBeginImageContext(size);
-    [self drawInRect:Rect(0, 0, size.width, size.height)];
+    [self drawInRect:CGRectMake(0, 0, size.width, size.height)];
     UIImage *scaleImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return  scaleImage;
