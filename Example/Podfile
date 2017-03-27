@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SmartEducation_Example' do
+  pod 'SmartEducation', :path => '../'
+
+  target 'SmartEducation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
