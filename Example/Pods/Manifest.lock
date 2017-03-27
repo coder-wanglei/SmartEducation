@@ -1,0 +1,16 @@
+PODS:
+  - SmartEducation (0.1.0)
+
+DEPENDENCIES:
+  - SmartEducation (from `../`)
+
+EXTERNAL SOURCES:
+  SmartEducation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmartEducation: 589b1f514d0f327879e04e31b21596033872d6ae
+
+PODFILE CHECKSUM: 107ad0fb24d0228422ee255d4e3c72d51a989dc4
+
+COCOAPODS: 1.1.1

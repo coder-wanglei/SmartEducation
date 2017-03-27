@@ -1,0 +1,22 @@
+{
+  "name": "SmartEducation",
+  "version": "0.1.0",
+  "summary": "A short description of SmartEducation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanglei19940101/SmartEducation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanglei19940101": "maybe_mylove@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wanglei19940101/SmartEducation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SmartEducation/Classes/**/*"
+}

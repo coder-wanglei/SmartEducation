@@ -1,0 +1,6 @@
+framework module SmartEducation {
+  umbrella header "SmartEducation-umbrella.h"
+
+  export *
+  module * { export * }
+}

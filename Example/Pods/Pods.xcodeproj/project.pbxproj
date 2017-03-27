@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082A5E787E49C7D1B3AB8F941D801D32 /* Pods-SmartEducation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 892AF8C90760FDE8678819EB9E280162 /* Pods-SmartEducation_Example-dummy.m */; };
+		1574039E33147D844ED28E6AF6113882 /* NSString+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 599FAF94745B3ACCE54A7E95A987F4AE /* NSString+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21FDB952742A5D30D38783F9A870B39B /* SmartEducation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0713126D81259B4F4D306A7407DBD290 /* SmartEducation-dummy.m */; };
+		49E044A814536A1D6506E0EECBBF5E46 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DECDE4B7CEB9D17E6CF3D442D7AD7BD8 /* UIImage+Extension.m */; };
+		4B2386FA0DF50BEA998C8BA763D36695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		505E4592143CD0A3285D2AFAF40C4607 /* Pods-SmartEducation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D96C812D74615E895358D0560EE9D49B /* Pods-SmartEducation_Tests-dummy.m */; };
+		5CEFCF80873E1B3429C978BB6EA8B63F /* NSString+ZHEStringCtg.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B6B18671193A5033BD0EF370C37E93 /* NSString+ZHEStringCtg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F6760AF421E385B7D9FDD45497EF46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		62F942C8A07D0CF74966ACD312300D1F /* SmartEducation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D16E492C48D043D03FBFEA99E8F1264E /* SmartEducation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		673D012BCCEB35FCDD91D4DDEAB13E02 /* Pods-SmartEducation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 568025AD849E1B46E55F591CF3A75517 /* Pods-SmartEducation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7031E3F033594CBC601F6A42CC77BBEB /* Pods-SmartEducation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 105B148769730FC7AAFFDAD33A578D63 /* Pods-SmartEducation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7862458079D1C88ECE7BB57F0687630C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A927A33EAF1CB458101B8B7DB035A /* ReplaceMe.m */; };
+		7D4AE6CE3AA314294D4795053E2B8132 /* NSString+ZHEStringCtg.m in Sources */ = {isa = PBXBuildFile; fileRef = F560113FB2A07919FAD6837FD5C14B9A /* NSString+ZHEStringCtg.m */; };
+		8E602291F815291FD3C25ADAE10C92B8 /* NSObject+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = A4892AD97C77076B273C9D7940F6C47A /* NSObject+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2BC330303BF2168BBE7E5558ED8274 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C4318200FEBD86A392A4B4833273A9FB /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E343E796B107E2C0982FCE8AB1EBCC2 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 895192DC17EEFFE3401AC54AF287A4F9 /* NSString+Utility.m */; };
+		AEED5CB92E4049254D98854B73B7E134 /* UIView+WashCarUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E51E01E76D30D03A8DA709816A762EDD /* UIView+WashCarUtility.m */; };
+		CCD07EA2D39CEE8FACCD0AE020C3C1CD /* UIView+WashCarUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3EC9478475429BBFBAAE850F465C7B /* UIView+WashCarUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4542F498C69D50A9657269123D582C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FB5B8BC172F88DF67FD8954F810CC463 /* NSObject+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CA0CD193F342DFDA0C8463688311F /* NSObject+Utility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6521D2E77EE60C0DAF0093A0D703B5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20DCE62A24A09790E070343026C27614;
+			remoteInfo = SmartEducation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040FE756C4E3A054E842C9CD58FC1DEF /* Pods-SmartEducation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEducation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0713126D81259B4F4D306A7407DBD290 /* SmartEducation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartEducation-dummy.m"; sourceTree = "<group>"; };
+		0886624838735347F61CEE20FCE714A9 /* SmartEducation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartEducation.framework; path = SmartEducation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B148769730FC7AAFFDAD33A578D63 /* Pods-SmartEducation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartEducation_Example-umbrella.h"; sourceTree = "<group>"; };
+		12C308BEFB70FACF56BFF22AE76AA0F0 /* Pods-SmartEducation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartEducation_Example.modulemap"; sourceTree = "<group>"; };
+		1992391AA30E7D4D9AD909E647E983AE /* Pods-SmartEducation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartEducation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E668A15FD41C4396AE83A113DCA0788 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FF1168CB648314CD34DA4ED1FD43D8 /* SmartEducation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SmartEducation.modulemap; sourceTree = "<group>"; };
+		3536A7AD26640B9B26B3A1F2E97DF87B /* Pods-SmartEducation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEducation_Example-resources.sh"; sourceTree = "<group>"; };
+		3E71FD8EF56E3CEBEFBB97F516E16830 /* Pods-SmartEducation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEducation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		43B6B18671193A5033BD0EF370C37E93 /* NSString+ZHEStringCtg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZHEStringCtg.h"; sourceTree = "<group>"; };
+		48922F58D6C0A24C1401B35FCA655129 /* Pods-SmartEducation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEducation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4C9CA0CD193F342DFDA0C8463688311F /* NSObject+Utility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utility.m"; sourceTree = "<group>"; };
+		4F0AAD83A0A14851491F833F3AE41040 /* Pods-SmartEducation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEducation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4FAEA01C67FE33F738A72EC56AF7E679 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568025AD849E1B46E55F591CF3A75517 /* Pods-SmartEducation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartEducation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		599FAF94745B3ACCE54A7E95A987F4AE /* NSString+Utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		5F3DD6644D2DEAB81C98BABFCFF4E934 /* SmartEducation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartEducation-prefix.pch"; sourceTree = "<group>"; };
+		646E8F94391F2F8CE4BF85C246621836 /* Pods-SmartEducation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartEducation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8041EE916AC64202A04C0525AFDA1062 /* Pods_SmartEducation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartEducation_Example.framework; path = "Pods-SmartEducation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A30828F286BA48521926385C904768 /* Pods-SmartEducation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEducation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		892AF8C90760FDE8678819EB9E280162 /* Pods-SmartEducation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartEducation_Example-dummy.m"; sourceTree = "<group>"; };
+		895192DC17EEFFE3401AC54AF287A4F9 /* NSString+Utility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		8F42207D2EBFEEC05732EE56A4CD9419 /* Pods-SmartEducation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEducation_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CD860B3313A8794FDF1A6B80AC791C1 /* Pods-SmartEducation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartEducation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A29C61BE6AEFC5A83AB6F0BCD96AF095 /* Pods_SmartEducation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartEducation_Tests.framework; path = "Pods-SmartEducation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4892AD97C77076B273C9D7940F6C47A /* NSObject+Utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utility.h"; sourceTree = "<group>"; };
+		AAA1F0611540792AE42753F3E4C23029 /* Pods-SmartEducation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartEducation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B66A927A33EAF1CB458101B8B7DB035A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		C4318200FEBD86A392A4B4833273A9FB /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		C48A664DA9603AB874834270FBD181A9 /* Pods-SmartEducation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartEducation_Tests.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D16E492C48D043D03FBFEA99E8F1264E /* SmartEducation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartEducation-umbrella.h"; sourceTree = "<group>"; };
+		D96C812D74615E895358D0560EE9D49B /* Pods-SmartEducation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartEducation_Tests-dummy.m"; sourceTree = "<group>"; };
+		DCD6E8D6FDB09408557347CF135F1F90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECDE4B7CEB9D17E6CF3D442D7AD7BD8 /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		E51E01E76D30D03A8DA709816A762EDD /* UIView+WashCarUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+WashCarUtility.m"; sourceTree = "<group>"; };
+		E5E357F985E73F521F7F57F5C7BEE1E2 /* SmartEducation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartEducation.xcconfig; sourceTree = "<group>"; };
+		EE3EC9478475429BBFBAAE850F465C7B /* UIView+WashCarUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+WashCarUtility.h"; sourceTree = "<group>"; };
+		F560113FB2A07919FAD6837FD5C14B9A /* NSString+ZHEStringCtg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZHEStringCtg.m"; sourceTree = "<group>"; };
+		FC3A8817466539E20BF6028FF4D9878E /* Pods-SmartEducation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEducation_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551F4F607E46F305B0D5DA2C73D50480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4542F498C69D50A9657269123D582C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C7067534019A49ECAE1B2BF428D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F6760AF421E385B7D9FDD45497EF46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F6D37EB330AD3FB42ABDC327E243A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2386FA0DF50BEA998C8BA763D36695 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1080D8D74F2943633F51D3F8F796EA82 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0410EF5C2568382B831B2BF0C779A15 /* Pods-SmartEducation_Example */,
+				80B57E7E1E474F367214FBA412F20F43 /* Pods-SmartEducation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		15076EDE558AE228581EDB7C81102296 /* SmartEducation */ = {
+			isa = PBXGroup;
+			children = (
+				2A9B859A178104E1964979920114A069 /* SmartEducation */,
+				62CA8348BFA701443B188CFBCBB0E409 /* Support Files */,
+			);
+			name = SmartEducation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2A9B859A178104E1964979920114A069 /* SmartEducation */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE011ABB26FF5F03163CE744326F7D /* Classes */,
+			);
+			name = SmartEducation;
+			path = SmartEducation;
+			sourceTree = "<group>";
+		};
+		454341DECE2112D8B7FDEABA3B743C69 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A4892AD97C77076B273C9D7940F6C47A /* NSObject+Utility.h */,
+				4C9CA0CD193F342DFDA0C8463688311F /* NSObject+Utility.m */,
+				599FAF94745B3ACCE54A7E95A987F4AE /* NSString+Utility.h */,
+				895192DC17EEFFE3401AC54AF287A4F9 /* NSString+Utility.m */,
+				43B6B18671193A5033BD0EF370C37E93 /* NSString+ZHEStringCtg.h */,
+				F560113FB2A07919FAD6837FD5C14B9A /* NSString+ZHEStringCtg.m */,
+				C4318200FEBD86A392A4B4833273A9FB /* UIImage+Extension.h */,
+				DECDE4B7CEB9D17E6CF3D442D7AD7BD8 /* UIImage+Extension.m */,
+				EE3EC9478475429BBFBAAE850F465C7B /* UIView+WashCarUtility.h */,
+				E51E01E76D30D03A8DA709816A762EDD /* UIView+WashCarUtility.m */,
+			);
+			name = Category;
+			path = Category;
+			sourceTree = "<group>";
+		};
+		62CA8348BFA701443B188CFBCBB0E409 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E668A15FD41C4396AE83A113DCA0788 /* Info.plist */,
+				32FF1168CB648314CD34DA4ED1FD43D8 /* SmartEducation.modulemap */,
+				E5E357F985E73F521F7F57F5C7BEE1E2 /* SmartEducation.xcconfig */,
+				0713126D81259B4F4D306A7407DBD290 /* SmartEducation-dummy.m */,
+				5F3DD6644D2DEAB81C98BABFCFF4E934 /* SmartEducation-prefix.pch */,
+				D16E492C48D043D03FBFEA99E8F1264E /* SmartEducation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SmartEducation";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E35B4473B924C1BD6769B39BF92DE60A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				907D454D0CDEDB14C25BAC9BFB10AE15 /* Products */,
+				1080D8D74F2943633F51D3F8F796EA82 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80B57E7E1E474F367214FBA412F20F43 /* Pods-SmartEducation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6E8D6FDB09408557347CF135F1F90 /* Info.plist */,
+				C48A664DA9603AB874834270FBD181A9 /* Pods-SmartEducation_Tests.modulemap */,
+				9CD860B3313A8794FDF1A6B80AC791C1 /* Pods-SmartEducation_Tests-acknowledgements.markdown */,
+				646E8F94391F2F8CE4BF85C246621836 /* Pods-SmartEducation_Tests-acknowledgements.plist */,
+				D96C812D74615E895358D0560EE9D49B /* Pods-SmartEducation_Tests-dummy.m */,
+				4F0AAD83A0A14851491F833F3AE41040 /* Pods-SmartEducation_Tests-frameworks.sh */,
+				8F42207D2EBFEEC05732EE56A4CD9419 /* Pods-SmartEducation_Tests-resources.sh */,
+				568025AD849E1B46E55F591CF3A75517 /* Pods-SmartEducation_Tests-umbrella.h */,
+				040FE756C4E3A054E842C9CD58FC1DEF /* Pods-SmartEducation_Tests.debug.xcconfig */,
+				85A30828F286BA48521926385C904768 /* Pods-SmartEducation_Tests.release.xcconfig */,
+			);
+			name = "Pods-SmartEducation_Tests";
+			path = "Target Support Files/Pods-SmartEducation_Tests";
+			sourceTree = "<group>";
+		};
+		907D454D0CDEDB14C25BAC9BFB10AE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8041EE916AC64202A04C0525AFDA1062 /* Pods_SmartEducation_Example.framework */,
+				A29C61BE6AEFC5A83AB6F0BCD96AF095 /* Pods_SmartEducation_Tests.framework */,
+				0886624838735347F61CEE20FCE714A9 /* SmartEducation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0410EF5C2568382B831B2BF0C779A15 /* Pods-SmartEducation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEA01C67FE33F738A72EC56AF7E679 /* Info.plist */,
+				12C308BEFB70FACF56BFF22AE76AA0F0 /* Pods-SmartEducation_Example.modulemap */,
+				AAA1F0611540792AE42753F3E4C23029 /* Pods-SmartEducation_Example-acknowledgements.markdown */,
+				1992391AA30E7D4D9AD909E647E983AE /* Pods-SmartEducation_Example-acknowledgements.plist */,
+				892AF8C90760FDE8678819EB9E280162 /* Pods-SmartEducation_Example-dummy.m */,
+				48922F58D6C0A24C1401B35FCA655129 /* Pods-SmartEducation_Example-frameworks.sh */,
+				3536A7AD26640B9B26B3A1F2E97DF87B /* Pods-SmartEducation_Example-resources.sh */,
+				105B148769730FC7AAFFDAD33A578D63 /* Pods-SmartEducation_Example-umbrella.h */,
+				3E71FD8EF56E3CEBEFBB97F516E16830 /* Pods-SmartEducation_Example.debug.xcconfig */,
+				FC3A8817466539E20BF6028FF4D9878E /* Pods-SmartEducation_Example.release.xcconfig */,
+			);
+			name = "Pods-SmartEducation_Example";
+			path = "Target Support Files/Pods-SmartEducation_Example";
+			sourceTree = "<group>";
+		};
+		E35B4473B924C1BD6769B39BF92DE60A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15076EDE558AE228581EDB7C81102296 /* SmartEducation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBFE011ABB26FF5F03163CE744326F7D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B66A927A33EAF1CB458101B8B7DB035A /* ReplaceMe.m */,
+				454341DECE2112D8B7FDEABA3B743C69 /* Category */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFF4066BC69166C8BE5D4F6EC14ABFAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E602291F815291FD3C25ADAE10C92B8 /* NSObject+Utility.h in Headers */,
+				1574039E33147D844ED28E6AF6113882 /* NSString+Utility.h in Headers */,
+				5CEFCF80873E1B3429C978BB6EA8B63F /* NSString+ZHEStringCtg.h in Headers */,
+				62F942C8A07D0CF74966ACD312300D1F /* SmartEducation-umbrella.h in Headers */,
+				9D2BC330303BF2168BBE7E5558ED8274 /* UIImage+Extension.h in Headers */,
+				CCD07EA2D39CEE8FACCD0AE020C3C1CD /* UIView+WashCarUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA4AE3AB8179F02607FE5A40069F1EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7031E3F033594CBC601F6A42CC77BBEB /* Pods-SmartEducation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BFDD004D8C71978FD71D7732693824 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673D012BCCEB35FCDD91D4DDEAB13E02 /* Pods-SmartEducation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20DCE62A24A09790E070343026C27614 /* SmartEducation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF38670CA1C5AAAA00529F24DD772E6 /* Build configuration list for PBXNativeTarget "SmartEducation" */;
+			buildPhases = (
+				F1D833A8B08D1FAFE734A828D04919D9 /* Sources */,
+				D74F6D37EB330AD3FB42ABDC327E243A /* Frameworks */,
+				AFF4066BC69166C8BE5D4F6EC14ABFAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartEducation;
+			productName = SmartEducation;
+			productReference = 0886624838735347F61CEE20FCE714A9 /* SmartEducation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA3E3225FA53C748289CE0BD9D98A13F /* Pods-SmartEducation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96679A1BE62C651C81573D14EA3916BC /* Build configuration list for PBXNativeTarget "Pods-SmartEducation_Tests" */;
+			buildPhases = (
+				948AEE6E1CD7B73AF53A83C5DA78FBFA /* Sources */,
+				5E9C7067534019A49ECAE1B2BF428D85 /* Frameworks */,
+				C0BFDD004D8C71978FD71D7732693824 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartEducation_Tests";
+			productName = "Pods-SmartEducation_Tests";
+			productReference = A29C61BE6AEFC5A83AB6F0BCD96AF095 /* Pods_SmartEducation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F938BF08233CCD858C76F3146DD7BD9E /* Pods-SmartEducation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923859A602FBE6E7392D25AFE09A18C8 /* Build configuration list for PBXNativeTarget "Pods-SmartEducation_Example" */;
+			buildPhases = (
+				28DEA4FCFF71071D1D20995C4F7472B5 /* Sources */,
+				551F4F607E46F305B0D5DA2C73D50480 /* Frameworks */,
+				BFA4AE3AB8179F02607FE5A40069F1EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F112C1201D54E0A8B5306B42878CC7EE /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartEducation_Example";
+			productName = "Pods-SmartEducation_Example";
+			productReference = 8041EE916AC64202A04C0525AFDA1062 /* Pods_SmartEducation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 907D454D0CDEDB14C25BAC9BFB10AE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F938BF08233CCD858C76F3146DD7BD9E /* Pods-SmartEducation_Example */,
+				BA3E3225FA53C748289CE0BD9D98A13F /* Pods-SmartEducation_Tests */,
+				20DCE62A24A09790E070343026C27614 /* SmartEducation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28DEA4FCFF71071D1D20995C4F7472B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082A5E787E49C7D1B3AB8F941D801D32 /* Pods-SmartEducation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AEE6E1CD7B73AF53A83C5DA78FBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505E4592143CD0A3285D2AFAF40C4607 /* Pods-SmartEducation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D833A8B08D1FAFE734A828D04919D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5B8BC172F88DF67FD8954F810CC463 /* NSObject+Utility.m in Sources */,
+				9E343E796B107E2C0982FCE8AB1EBCC2 /* NSString+Utility.m in Sources */,
+				7D4AE6CE3AA314294D4795053E2B8132 /* NSString+ZHEStringCtg.m in Sources */,
+				7862458079D1C88ECE7BB57F0687630C /* ReplaceMe.m in Sources */,
+				21FDB952742A5D30D38783F9A870B39B /* SmartEducation-dummy.m in Sources */,
+				49E044A814536A1D6506E0EECBBF5E46 /* UIImage+Extension.m in Sources */,
+				AEED5CB92E4049254D98854B73B7E134 /* UIView+WashCarUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F112C1201D54E0A8B5306B42878CC7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartEducation;
+			target = 20DCE62A24A09790E070343026C27614 /* SmartEducation */;
+			targetProxy = 6521D2E77EE60C0DAF0093A0D703B5CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00038CD995C3369DDD429912903566B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E71FD8EF56E3CEBEFBB97F516E16830 /* Pods-SmartEducation_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEducation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEducation_Example/Pods-SmartEducation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEducation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		302F6F9DD8FDB3E23038D531EE23D661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A30828F286BA48521926385C904768 /* Pods-SmartEducation_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEducation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEducation_Tests/Pods-SmartEducation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEducation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DF39014EA38D21744B4FABA5DF848A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3A8817466539E20BF6028FF4D9878E /* Pods-SmartEducation_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEducation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEducation_Example/Pods-SmartEducation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEducation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B6B6ADB855415E41573F2418FA2CC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040FE756C4E3A054E842C9CD58FC1DEF /* Pods-SmartEducation_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEducation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEducation_Tests/Pods-SmartEducation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEducation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EBB2751F43AB968EC17C77878AE1F9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E357F985E73F521F7F57F5C7BEE1E2 /* SmartEducation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SmartEducation/SmartEducation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartEducation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartEducation/SmartEducation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SmartEducation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2CEAD38FB72848319401A14DB7144A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E357F985E73F521F7F57F5C7BEE1E2 /* SmartEducation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SmartEducation/SmartEducation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartEducation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartEducation/SmartEducation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SmartEducation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923859A602FBE6E7392D25AFE09A18C8 /* Build configuration list for PBXNativeTarget "Pods-SmartEducation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00038CD995C3369DDD429912903566B3 /* Debug */,
+				3DF39014EA38D21744B4FABA5DF848A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96679A1BE62C651C81573D14EA3916BC /* Build configuration list for PBXNativeTarget "Pods-SmartEducation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6B6ADB855415E41573F2418FA2CC36 /* Debug */,
+				302F6F9DD8FDB3E23038D531EE23D661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF38670CA1C5AAAA00529F24DD772E6 /* Build configuration list for PBXNativeTarget "SmartEducation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB2751F43AB968EC17C77878AE1F9FA /* Debug */,
+				F2CEAD38FB72848319401A14DB7144A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
